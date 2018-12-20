@@ -1,21 +1,22 @@
 <?php include "functions.php" ?>
 <?php include "includes/header.php" ?>
 
-	<section class="content">
+<section class="content">
 
-	<aside class="col-xs-4">
+  <aside class="col-xs-4">
 
-	<?php Navigation();?>
-			
-			
-	</aside><!--SIDEBAR-->
+    <?php Navigation();?>
 
 
-<article class="main-content col-xs-8">
-		
+  </aside>
+  <!--SIDEBAR-->
 
 
-		<?php  
+  <article class="main-content col-xs-8">
+
+
+
+    <?php  
 
 
 		/* 
@@ -27,11 +28,15 @@
 
 
 		   */
+        
+            // add html inside echo and print html to screen
+            echo "<h1>Hello Sahvith.</h1>";
 
 		?>
 
-	
 
-		</article><!--MAIN CONTENT-->
 
-<?php include "includes/footer.php" ?>
+  </article>
+  <!--MAIN CONTENT-->
+
+  <?php include "includes/footer.php" ?>
