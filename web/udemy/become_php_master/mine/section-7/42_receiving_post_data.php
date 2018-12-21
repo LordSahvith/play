@@ -1,3 +1,12 @@
+<?php
+
+if (isset($_POST['submit'])) {
+  echo "made it.";
+}
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
