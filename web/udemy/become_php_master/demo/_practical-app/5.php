@@ -1,18 +1,19 @@
 <?php include "functions.php" ?>
 <?php include "includes/header.php" ?>
-	<section class="content">
+<section class="content">
 
-		<aside class="col-xs-4">
-		<?php Navigation();?>
-			
-			
-		</aside><!--SIDEBAR-->
+  <aside class="col-xs-4">
+    <?php Navigation();?>
 
 
-<article class="main-content col-xs-8">
+  </aside>
+  <!--SIDEBAR-->
 
-	
-	<?php 
+
+  <article class="main-content col-xs-8">
+
+
+    <?php 
 
 
 /*  Step1: Use a pre-built math function here and echo it
@@ -24,6 +25,24 @@
 	Step 3:  Use a pre-built Array function here and echo it
 
  */
+  
+  echo pow(6,6);
+  
+  echo "<br>";
+  
+  echo strtoupper("sahvith");
+  
+  echo "<br>";
+  
+  $list = ["Sith", "bob", "Jedi", "sally"];
+  echo print_r($list);
+  
+  echo "<br>";
+  
+  sort($list);
+  
+  echo print_r($list);
+  
 
 	
 ?>
@@ -32,5 +51,6 @@
 
 
 
-</article><!--MAIN CONTENT-->
-<?php include "includes/footer.php" ?>
+  </article>
+  <!--MAIN CONTENT-->
+  <?php include "includes/footer.php" ?>
